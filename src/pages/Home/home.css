@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.home-panellist-warp,
+.home-panel-warp,
+.home-list-warp {
+  overflow-y: auto;
+}
+
+.home-panellist-warp {
+  flex: 1;
+  display: flex;
+}
+.home-panel-warp {
+  flex-basis: 280px;
+  padding: 1rem;
+}
+.home-list-warp {
+  flex: 1;
+  padding: 1rem;
+}
